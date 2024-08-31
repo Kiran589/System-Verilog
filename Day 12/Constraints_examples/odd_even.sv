@@ -1,4 +1,6 @@
-class even_odd;
+// Wrirte a constraint for 4-bit dynamic array. The size of the array should be in between 15 to 20.
+//There should be even number in odd location and odd number in even loation.
+  class even_odd;
   rand bit[3:0] a[]; 
   int i;
   constraint s1 { a.size() inside {[15:20]}; }
